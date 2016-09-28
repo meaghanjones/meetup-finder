@@ -1,24 +1,32 @@
-# README
+# Geek Meet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By Olivia Hinton and Meaghan Jones | September 28th, 2016
 
-Things you may want to cover:
 
-* Ruby version
+## Description
 
-* System dependencies
+This app helps you search for tech meetups in your area and list them out neatly so you can decide which ones you want to attend!
 
-* Configuration
 
-* Database creation
+## General Setup Instructions
 
-* Database initialization
+* Clone this repository
+* Install gems by running command `$ bundle` in the terminal
+* Open another terminal tab and type `postgres` to start PostgreSQL database
+* Return to first terminal tab and run `rails db:create` to create the databases
+* Run `rails db:schema:load` to create tables
+* Launch the Rails server by running command `$ rails s` in the terminal
+* Launch site by visiting localhost:3000 in browser
 
-* How to run the test suite
+## Tech Used
 
-* Services (job queues, cache servers, search engines, etc.)
+* Ruby on Rails (v. 5.0.0.1)
+* Active Record
+* PostgreSQL
+* Bootstrap/SCSS
 
-* Deployment instructions
+### License
 
-* ...
+*This software is licensed under the MIT license.*
+
+Copyright (c) 2016 **Olivia Hinton and Meaghan Jones**
