@@ -24,7 +24,7 @@ class MeetupsController < ApplicationController
 private
 
   def meetup_params
-    params.require(:meetup).permit(:zip)
+    params.require(:meetup).permit(:zip, :name)
   end
 
 end
