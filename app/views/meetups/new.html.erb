@@ -1,0 +1,18 @@
+<% if @meetup.errors.any? %>
+  <p>Something went wrong:</p>
+  <ul>
+    <% @meetup.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= form_for @meetup do |f| %>
+  <div class="form-group">
+    <%= f.label :zip, "Zip Code:" %>
+    <%= f.text_field :zip, :class => "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.submit 'Find Meetups', :class => "btn btn-primary" %>
+  </div>
+<% end %>
