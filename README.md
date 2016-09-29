@@ -18,6 +18,8 @@ This app helps you search for tech meetups in your area and list them out neatly
 * Launch the Rails server by running command `$ rails s` in the terminal
 * Launch site by visiting localhost:3000 in browser
 
+* Create an .env file in the top level of the project for MAP_API_KEY and set it equal to your Google Map API key
+
 ## Tech Used
 
 * Ruby on Rails (v. 5.0.0.1)
